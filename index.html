@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Lorem Ipsum</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.css">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<main class="index-page-main">
+		<section class="photo">
+			<header class="photo__header">
+				<div class="photo__wrapper photo-item">
+					<p class="photo-item__option photo-item__option-first">
+						<span class="photo-item__percent">45%</span>
+						<span class="photo-item__title">людей обращают внимание на А.</span>
+					</p>
+					<p class="photo-item__option photo-item__option-second">
+						<span class="photo-item__percent">30%</span> 
+						<span class="photo-item__title">людей обращают внимание на Б.</span>
+					</p>
+					<p class="photo-item__option photo-item__option-third">
+						<span class="photo-item__percent">25%</span> 
+						<span class="photo-item__title">людей обращают внимание на В.</span>
+					</p>
+				</div>
+				<div class="photo__wrapper-second photo-item-second">
+					<p class="photo-item-second__option photo-item-second__option-first">
+						<span class="photo-item-second__percent">47,6%</span> 
+						<span class="photo-item-second__title">пользователей — вариант А</span>
+					</p>
+					<p class="photo-item-second__option photo-item-second__option-second">
+						<span class="photo-item-second__percent">52,4%</span>
+						<span class="photo-item-second__title">пользователей — вариант Б</span>
+					</p>
+				</div>
+			</header>
+			<picture><source type="image/webp" srcset="img/bg.jpg"><img class="photo__image" src="img/bg.jpg" alt="Lorem Ipsum">
+			</picture>
+		</section>
+		<div class="choice"><div class="choice__circle-one"></div>
+			<div class="choice__circle-two"><svg class="choice__heart" width="18px" height="18px"><use xlink:href="#heart"></use></svg></div>
+		</div>
+		<section class="start">
+			<h1 class="start__title">Lorem ipsum</h1>
+			<p class="start__description">Mauris vel nisi ac orci placerat semper. Aenean sapien massa.</p>
+			<p class="start__question">Lorem Ipsum?</p>
+			<button class="start__btn btn">Начать</button>
+		</section>
+		<section class="start-second">
+			<p class="start-second__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a urna sit amet</p>
+			<button class="start-second__btn start-second__btn-first btn">Вариант А</button> 
+			<button class="start-second__btn start-second__btn-second btn">Вариант Б</button> 
+			<button class="start-second__btn start-second__btn-third btn">Вариант В</button>
+			<button class="start-second__btn start-second__btn-fourth btn">Продолжить</button>
+		</section>
+		<section class="start-third">
+			<h1 class="start-third__title">Lorem ipsum</h1>
+			<button class="start-third__btn start-third__btn-first btn"><svg class="start-third__man" width="25px" height="25px"><use xlink:href="#man"></use></svg> Вариант А</button>
+			<button class="start-third__btn start-third__btn-second btn"><svg class="start-third__woman" width="25px" height="25px"><use xlink:href="#woman"></use></svg>Вариант Б</button> 
+			<button class="start-third__btn start-third__btn-third btn">Продолжить</button>
+		</section>
+		<section class="checkin">
+			<p class="checkin__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+			<form class="checkin-form" method="post" action="https://echo.htmlacademy.ru">
+				<fieldset class="checkin__item">
+					<ul class="checkin__list">
+						<li class="checkin__option checkin__option--variable">
+							<label for="name">Я ищу:</label> 
+							<button class="checkin__btn checkin__btn-first btn">
+								<svg class="checkin__man" width="25px" height="25px">
+									<use xlink:href="#man"></use></svg>
+								Вариант 1
+							</button>
+							 <button class="checkin__btn checkin__btn-second btn">
+							 	<svg class="checkin__woman" width="25px" height="25px">
+							 		<use xlink:href="#woman"></use>
+							 	</svg>Вариант 2
+							 </button>
+						</li>
+						<li class="checkin__option checkin__option--name">
+							<label for="name">Ваше имя:</label> 
+							<input class="checkin__input checkin__input--name" type="text" name="name" id="name" maxlength="25" required>
+						</li>
+						<li class="checkin__option checkin__option--email">
+							<label class="checkin__label-email" for="email">Email:</label> 
+							<input class="checkin__input checkin__icon-email" type="email" name="email" id="email" required>
+						</li>
+						<li class="checkin__option checkin__option--password">
+							<label for="password">Придумайте пароль:</label> 
+							<input class="checkin__input checkin__input--password" type="password" name="password" id="password" required>
+						</li>
+						<li class="checkin__option checkin__option--checkbox">
+							<input class="checkin__input checkin__input--checkbox" type="checkbox" name="regulations" id="regulations" checked="checked">
+							<label for="regulations">Регистрируясь, вы подтверждаете, что вам уже исполнилось 18 лет и вы ознакомились с условиями пользования сайтом.</label>
+						</li>
+					</ul>
+				</fieldset>
+				<button class="checkin__btn checkin__btn--submit btn" type="submit">Продолжить</button>
+			</form>
+		</section></main>
+		<script src="js/main.js"></script>
+	</body>
+	</html>
